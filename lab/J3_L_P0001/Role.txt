@@ -1,0 +1,12 @@
+  HttpServletRequest req = (HttpServletRequest) request;
+            HttpServletResponse res = (HttpServletResponse) response;
+
+            HttpSession session = req.getSession();
+
+            String contextPath = req.getContextPath();
+
+            if (session.getAttribute("LoginUser") == null) {
+                res.sendRedirect(contextPath + "/Home.jsp");
+            } else if (session.getAttribute("RoleUser").equals("student")) {
+                res.sendRedirect(contextPath + "/Home.jsp");
+            }

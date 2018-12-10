@@ -1,0 +1,332 @@
+body {
+    padding-bottom: 50px;
+    padding-top: 0;
+    margin-top: 0;
+    background-color: #4a040b;
+    background: url(../img/background.jpg) repeat;
+    font-family: sans-serif;
+    width: 90%;
+    margin-left: 5%;
+}
+div{
+    display: block;
+}
+
+.title{
+    font-size: 47px;
+
+}
+
+.subtitle{
+    font-size: 22px;
+}
+
+.center {
+    background-color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0 30px #535353;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.main-content {
+    background-color: #ffffff;
+    overflow: auto;
+}
+.header {
+    background-color: #ffe541;
+    height: 145px;
+}
+.header-center {
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+
+.nav {
+    background-color: black;
+    height: 35px;
+    color: white;
+    padding-left: 2%;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    line-height: 35px;
+    margin-right: 40px;
+}
+
+.nav a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.main {
+    width: 73%;
+    float: left;
+    margin-top: 20px;
+    padding-bottom: 70px;
+}
+
+
+
+
+.content .img-content {
+    width: 50%;
+    float: left;
+
+}
+
+.content .img-about {
+    margin: 10px auto;
+    width: 50%;
+    float: right;
+
+}
+
+.margin{
+    margin: 3%;
+}
+
+.main .article {
+    width: 96%;
+    margin-top: 30px;
+}
+
+.main .article .description {
+    display: inline-block;
+    width: 60%;
+}
+.description p {
+    padding-left: 3%;
+
+}
+.img-about{
+    width: 250px;
+    float: right;
+
+}
+
+.main .article .content .img-content-border {
+    width: 46%;
+
+}
+
+.aside {
+    width: 25%;
+    display: inline-block;
+}
+
+.aside .nav-right {
+    border: 1px solid gray;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px #535353;
+}
+.nav-right a {
+    display: block;
+    color: black;
+}
+.nav-right a:hover {
+    color: black;
+}
+
+.footer{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: auto;
+}
+.footer article {
+    width: 95%;
+    border-top: 1px solid gray;
+    margin-left: 1.9%;
+}
+.footer div a {
+    color: gray;
+    font-size: 15px;
+}
+.footer div span {
+    line-height: 90px;
+}
+.footer div a:hover {
+    color: gray;
+}
+
+
+.float-right {
+    
+    display: inline-block;
+    float: right;
+}
+
+.content-for-sale{
+    float: right;
+    display: inline-block;
+    width: 55%;
+}
+
+.img-for-sale{
+    float: left;
+    width: 43%;
+}
+
+.main .info {
+    padding-bottom: 50px;
+
+}
+.main .info p {
+    font-size: 14px;
+}
+.main .info .contact {
+    width: 50%;
+    float: left;
+}
+.main .info .opening {
+    width: 50%;
+    display: inline-block;
+}
+.main .info .tel-mail {
+    margin-top: 35px;
+    line-height: 20px;
+
+}
+
+
+
+.paging {
+    margin-top: 5%;
+    display: block;
+}
+.font-bold {
+    font-weight: bold;
+}
+.h2{
+    font-size: 30px;
+}
+
+.h3{
+
+    font-size: 20px;
+}
+.h4{
+    margin-top: 15px;
+    font-size: 15px;
+}
+.h5{
+    font-size: 10px;
+}
+p{
+    font-family: sans-serif;
+}
+.findus{
+    margin-left:  2%;
+}
+
+.iconfacebook{
+    list-style-image:  url(../img/f.PNG)
+}
+
+
+.icongoogle{
+    list-style-image: url(../img/g.PNG)
+}
+
+.icontwitter{
+    list-style-image: url(../img/tw.PNG)
+}
+.img-intro{
+    width: 90%;
+    float: left;
+}
+section{
+    margin-top: 5%;
+    overflow: auto;
+    border-bottom: 3px dotted gray;
+    padding-bottom: 15px;
+}
+.home-content-left{
+    width: 50%;
+    float: left;
+
+}
+.home-img .home-imgcontent{
+    width: 95%;
+}
+.home-content-right{
+    width: 50%;
+    float: right;
+    display: inline-block;
+}
+
+.marginleft{
+    margin-left: 3%;
+}
+
+img{
+    border-radius: 3%;
+}
+
+a{
+    color: black;
+}
+.buttton{
+    height: 35px;
+    width: 99%;
+    background-color: #3fb1a2;
+    color:white;
+    border-radius: 15px;
+    text-align: center;
+    border: none;
+}
+.inline{
+    display: inline-block;
+    width: 30%;
+}
+
+.img-home{
+    width: 90%;
+}
+
+.float-left{
+    display: inline-block;
+    width: 50%;
+}
+
+input{
+    font-family: sans-serif;
+    vertical-align: middle;
+    border-radius: 6px;
+    width: 98%;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+.message textarea{
+    width: 98%;
+    height: 100px;
+    border-radius: 6px;
+    margin-top: 2%;
+    border: 1px solid #ccc;
+}
+.buttonright{
+    float: right;
+    width: 30%;
+    margin-right: 0px auto;
+}
+.row{
+    width: 100%;
+}
+.row .span6{
+    display: inline-block;
+    width: 49.5%;
+}
+
+

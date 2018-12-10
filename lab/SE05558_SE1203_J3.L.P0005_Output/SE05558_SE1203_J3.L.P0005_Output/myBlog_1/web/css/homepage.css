@@ -1,0 +1,268 @@
+body{
+    background-image: url("../img/img04.jpg");
+   font-family : 'Nova Mono',cursive;
+   width: 1299px;
+}
+
+.top-page{
+    padding-left:30px;
+    font-size:50px;
+}
+p.top-page{
+    margin-top: 0px;
+}
+
+#idmenu-bar{
+    width: 1339px;
+    color:#cccccc;
+    
+}
+ul.menu-bar{
+    list-style-type: none;
+    margin:10px;
+    padding:0px;
+    overflow:hidden;
+    background-color: #111111;
+}
+
+li.menu-bar{
+    float:left;
+    
+}
+
+.menu-bar a{
+    display :block;
+    color:#cccccc;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    
+}
+.menu-bar.active a{
+    color:white;
+} 
+li.menu-bar.active  {
+    background-image: url("../img/img02.jpg")  ;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    
+}
+
+.content{
+    margin-top:50px;
+    padding-left: 30px;
+}
+
+.first-content{
+    width: 800px;
+    padding-left:30px;
+    float:left;
+}
+
+.first-content-1{
+    color: grey;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.first-content-1 a {
+    text-decoration: none;
+    color:black;
+}
+
+.first-content-1-1{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: grey;
+    font-size: 14px;
+    font-family: 'Arial';
+}
+
+
+
+.first-content-1-1 A {
+   text-decoration: none;
+   color: black;
+}
+
+p.first-content-2{
+    text-align: justify;
+}
+
+p.first-content-1{
+    font-size:30px;
+    color:black;
+    margin-bottom: 0px;
+}
+
+.second-first-content-1 i{
+    color:grey;
+    font-size: 15px;
+    font-family: 'Arial';
+}
+    
+
+
+.second-content{
+    width: 300px;
+    float:right;
+   
+    
+}
+.second-content p{
+    margin-left: 25px;
+    margin-bottom: 15px;
+    font-size: 30px;
+     margin-top: -8px;
+}
+
+.second-content hr{
+    width: 250px;
+    float: left;
+    
+    margin: 5px
+}
+
+.image{
+    float:left;
+    margin-right: 15px;
+    overflow: hidden;
+    width: 148px;
+    height: 148px;
+    
+    border:1px solid;
+    
+    /*position:absolute;*/
+}
+
+.image img{
+    margin:auto;
+    display:block;
+    position: relative;
+/*    width:100%;
+    height:100%;*/
+}
+
+p.first-content-2{
+/*    margin-left: 174px;*/
+
+    color:grey;
+    font-family: 'Arial';
+    font-size:15px;
+}
+
+ul.second-content{
+    list-style-image: url('../img/img01.jpg');
+    text-decoration: none;
+    float:left;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+/*.second-content li{
+    margin-left: 20px;
+}*/
+
+a.second-content{
+    text-decoration: none;
+    color:black;
+    font-family: 'Arial';
+    margin-top: 3px;
+}
+
+.pagination{
+    display: inline-block;
+    width: 900px;
+    
+}
+
+.pagination a {
+    color :black;
+    float:left;
+    padding:8px 16px;
+    text-decoration: none;
+    
+}
+
+a.kmli.active{
+    background-color: pink;
+}
+
+.second-first-content-1{
+    font-size: 15px;
+    font-family: 'Arial';
+    margin:15px 0px;
+
+}
+.second-first-content-1 ul{
+    padding-left: 13px;
+}
+a.second-first-content-1{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+.kli a{
+    color:black;
+    text-decoration: none;
+}
+.kli.active a{
+    text-decoration: none;
+    color:green;
+}
+.contact-frame{
+    border: 2px dotted;
+    width : 600px;
+    height:500px;
+    margin-bottom: 50px;
+}
+.contact-frame h1{
+    padding-top:5px;
+    height:20px;
+    width : 200px;
+    margin-top: -15px;
+    margin-left:5px;
+    background: #be0d0d;
+    font-size: 14px;
+    text-align: center;
+    color:white;
+    font-family: 'Arial';
+}
+.contact{
+    margin-right:80px;
+    height: 400px;
+    float: right;
+    width:449px;
+     font-family: 'Arial';
+}
+
+.contact p{
+    float:right;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+
+#errorContact {
+    float:right;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    color:red;
+}
+
+.contact input{
+    width:300px;
+}
+
+.contact textarea{
+    width :300px;
+    height:150px;
+    float:right;
+}
+.contact button{
+    background: #be0d0d;
+    float: right;
+    margin-right: 30px;
+    border-radius: 5px;
+    color:white;
+   
+    
+}

@@ -1,0 +1,9 @@
+ HttpServletRequest req = (HttpServletRequest) request;
+            HttpServletResponse res = (HttpServletResponse) response;
+
+            HttpSession session = req.getSession();
+
+            String contextPath = req.getContextPath();
+            if (session.getAttribute("LoginUser") == null) {
+                res.sendRedirect(contextPath + "/Home.jsp");
+            }

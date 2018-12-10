@@ -1,0 +1,262 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    background: url("../img/img04.jpg");
+}
+
+.heading {
+    font-size: 30px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    min-height: 670px;
+}
+
+.inner {
+    margin: 0;
+    padding: 0 30px;
+}
+
+.news-name {
+    font-size: 50px;
+}
+
+/*---------------- Header ----------------*/
+.pre-header {
+    height: 71px;
+}
+
+.header {
+    height: 78px;
+}
+
+/*---------------- Menu ----------------*/
+.menu {
+    height: 40px;
+    background: black;
+}
+
+.menu-list {
+    padding: 0 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.menu li {
+    color: grey;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.menu li:hover {
+    color: white;
+}
+
+.pagetrue {
+    background: url("../img/img02.jpg") no-repeat center bottom; 
+    color: white;
+}
+/*---------------- End: Menu ----------------*/
+
+/*---------------- Content ----------------*/
+.content {
+    margin-top: 65px;
+}
+
+.content-container {
+    height: 100%;
+}
+
+/*---- Artile ----*/
+.article {
+    width: 70%;
+    float: left;
+    /*---border-right: dashed lightgrey 1px;--*/
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.article-category {
+    color: darkolivegreen;
+    font-style: italic;
+}
+
+.article span {
+    font-style: italic;
+    color: initial;
+}
+
+.article .heading {
+    margin: 20px 0 5px;
+}
+
+.article-date {
+    color: graytext;
+    font-style: italic;
+    margin-top : 5px;
+    margin-bottom : 30px;
+}
+
+.article-content {
+    overflow: auto;
+}
+
+.article-content p {
+    margin-top: 0;
+    color: graytext;
+    font-size: 13px;
+}
+
+.article img {
+    float: left;
+    padding: 0 10px 5px 0;
+}
+
+.most-recent-blog {
+    margin: 30px 0 0;
+    padding: 5px 0;
+    border-top: solid lightgrey 1px;
+}
+
+.most-recent-blog ul {
+    padding: 0px;
+    padding-left: 15px;
+}
+
+.most-recent-blog li {
+    padding: 5px 0;
+}
+
+.most-recent-blog li a {
+    text-decoration: none;
+    color: initial;
+}
+
+.most-recent-blog span {
+    color: graytext;
+}
+
+/*---- Aside ----*/
+.aside {
+    width: 29%;
+    margin-left: 74%;
+}
+
+.categories .heading {
+    padding-left: 20px;
+    font-size: 25px;
+    padding-bottom: 5px;
+    border-bottom: dashed lightgrey 1px;
+    font-family: "Nova Mono";
+}
+
+.categories ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.categories li {
+    margin: 15px 0;
+}
+
+.categories li a {
+    text-decoration: none;
+    color: initial;
+}
+
+.categories ul span {
+    margin-right: 15px;
+}
+
+.clear {
+    clear: both;
+}
+/*----------------End: Content ----------------*/
+
+/*---------------- Footer ----------------*/
+.footer {
+    height: 78px;
+    background: url("../img/footer.jpg") center no-repeat;
+}
+
+/* Category */
+
+.heading a {
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+.article p {
+    color: graytext;
+}
+
+
+/* Contact */
+
+
+
+.contact {
+    width: 70%;
+    float: left;
+    /*border-right: dashed lightgrey 1px;*/
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+fieldset {
+    border: 1px grey dashed;
+    width: 70%;
+    padding-right: 30px;
+}
+
+legend {
+    background: #9b1d1f;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px; 
+    padding: 5px 8px;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    padding: 5px;
+}
+input, textarea {
+    width: 100%;
+    padding: 2px;
+    border-width: 2px;
+    font-family: Arial, sans-serif;
+}
+
+.field {
+    text-align: right;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    width: 53px;
+    height: 24px;
+    background: url("../img/contact_bt.gif");
+    border: 0px;
+    float: right;
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+td p {
+    margin: 0px;
+}

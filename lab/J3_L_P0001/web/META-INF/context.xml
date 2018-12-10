@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/J3_L_P0001">
+    <Environment name="myConnectionURL" value="jdbc:sqlserver://localhost:1433;databaseName=J3_L_P0001" type="java.lang.String" />
+    <Environment name="username" value="sa" type="java.lang.String" />
+    <Environment name="password" value="123456" type="java.lang.String" />
+</Context>

@@ -1,0 +1,22 @@
+SMAP
+TakeQuiz_jsp.java
+JSP
+*S JSP
+*F
++ 0 TakeQuiz.jsp
+TakeQuiz.jsp
++ 1 Header.jsp
+Header.jsp
+*L
+5,11:62
+5#1,20:73
+24:130,7
+25:137
+25:160,8
+26,2:168
+27,2:140
+28,5:95
+15#0:99
+16:100,3
+17,10:103
+*E

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/WebApplication8">
+    <Environment name="serverName" value="localhost" type="java.lang.String"></Environment>
+    <Environment name="portNumber" value="1433" type="java.lang.String"></Environment>
+    <Environment name="user" value="sa" type="java.lang.String"></Environment>
+    <Environment name="pass" value="123456" type="java.lang.String"></Environment>
+    <Environment name="dbName" value="Constructor" type="java.lang.String"></Environment>
+    <Environment name="image" value="img/" type="java.lang.String"></Environment>
+</Context>

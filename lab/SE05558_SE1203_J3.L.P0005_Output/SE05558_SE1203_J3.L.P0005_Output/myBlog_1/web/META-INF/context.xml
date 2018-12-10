@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/myBlog_1">
+  <Environment name="host" type="java.lang.String" value="localhost"/>
+  <Environment name="dbName" type="java.lang.String" value="MyBlog"/>
+  <Environment name="portNumber" type="java.lang.String" value="1433"/>
+  <Environment name="userID" type="java.lang.String" value="sa"/>
+  <Environment name="password" type="java.lang.String" value="123456"/>
+  <Environment name="img" type="java.lang.String" value="img/"/>
+</Context>

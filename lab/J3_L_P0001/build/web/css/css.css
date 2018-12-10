@@ -1,0 +1,125 @@
+.HomeLoginDecoration{
+    color : #00007E;
+    text-align: left
+}
+
+.HomeTextDecoration{
+    text-decoration: none;
+    color:#67828E;
+}
+
+.HomeTextResult{
+    color:red;
+}
+
+.HeaderUl{
+    background:url("../img/menu_bg.gif") no-repeat center;
+    padding: 12px;
+}
+
+.HeaderLeftImage{
+    float:left; 
+    width:24px;
+    height:100%;
+    margin-left:2px;
+}
+
+.HeaderRightImage{
+    float:right; 
+    width:26px;
+    height:100%;
+}
+
+.HeaderTopImage{
+    height: 25px;
+    width: 100%;
+}
+
+.HeaderUnTopImage{
+    height: 20px;
+    width:96%;
+}
+
+.HeaderUl li{
+    display: inline;
+    padding: 10px;
+    color: rgb(87,76,65)
+}
+
+.HeaderUl li a{
+    text-decoration: none;
+}
+
+.TakeQuizDiv{
+    color: #67828E;
+}
+
+.TakeQuizDiv b{
+    color: rgb(0,0,255);
+}
+
+.TakeQuizBtnDecoration{
+
+}
+
+.TakeQuizDivTimeRemaining{
+    color: #67828E;
+}
+
+.TakeQuizDivTimeRemaining b{
+    color: #FF0000;
+}
+
+.TakeQuizPass{
+    color:blue;
+}
+
+.TakeQuizFail{
+    color:red;
+}
+
+.ManagerQuizTable{
+    color:red;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.ManagerQuizListQuestionSize{
+    color:blue;
+}
+
+.ManagerQuizTable tr th{
+    text-align: left;
+    color: blue;
+} 
+
+.ManagerQuizTable tr td{
+    text-align: left;
+    padding-top: 20px;
+} 
+
+.ManagerQuizTableTextDecoration{
+    color: rgb(71,80,79);
+    margin-left: 10px;
+}
+
+.MakeQuizTable{
+    color: rgb(71,80,79);
+}
+
+.MakeQuizTextareaOfOption{
+    width: 500px;
+}
+
+.MakeQuizTextareaOfQuestion{
+    width: 1000px;
+}
+
+.RegistrationForm{
+    color : #00007E;
+    font-size: large;
+}
+
+.RegistrationTable{
+    color: #3A637B;
+}

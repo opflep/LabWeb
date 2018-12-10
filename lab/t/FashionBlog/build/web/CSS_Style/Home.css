@@ -1,0 +1,630 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 15, 2018, 9:24:05 PM
+    Author     : Chu Anh
+*/
+
+body{
+    margin: 0px;
+    background-image: url(/FashionBlog/Image/background.jpg);
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*about all of page use for all pages*/ 
+#mainBoxShadow{
+    height: 96%;
+    width: 68%;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-bottom: 4%;
+    margin-top: -10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    border-radius: 12px;
+    display: block;
+    background-color: white;
+    box-shadow: 0px 0px 20px black;
+}
+/*content title and menubar*/
+#bigHeader{
+    width: 96%;
+    height: 130px;
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 0px;
+}
+/*the menu bar*/
+#menuBar{
+    background-color: #cd0d18;
+    height: 25px;
+    width: 100%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+}
+/*about all content and advertising and link overview*/
+#bigContener{
+    width: 96%;
+    height: auto;
+    margin-top:0px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    border:1px;
+    border-bottom-style: solid;
+    border-bottom-color:#cccccc;
+    display: flex; /*flexible*/
+}
+/*display list blog*/ 
+#listBlogs{
+    height: auto;
+    width: 70%;
+    margin-right: 3%;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    float: left;
+    display: block;
+}
+/*blog type is area for all iconblog, headerBlog, image, contener text of each blog*/
+#blogType{
+    height: auto;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    padding: 0px;
+    display: flex;
+}
+/*display icon of each blog float left*/
+#iconBlog{
+    height: 100px;;
+    width: 10%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    background-image:url(/FashionBlog/Image/iconBlogType1.PNG);
+    background-repeat: no-repeat;
+    background-size: 45px;
+}
+/*display contener of each blog*/
+#blogContener{
+    height: auto;
+    width: 90%;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+/*the header of blog about name and pushdate*/
+#theHeaderBlog{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+/*the header of blog for page detail*/ 
+#theHeaderBlogDetail{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+/*advertising*/
+#advertising{
+    height: 130px;
+    width: 25%;
+    float: right;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    border: 1px;
+    border-radius: 12px;
+    display: block;
+    background-color: white;
+    box-shadow: 0px 0px 20px black;
+}
+/*display blog text content of blog type2*/
+#textContentBlogType2{
+    width: 50%;
+    height: auto;
+    margin: 0px;
+    padding: 5px;
+    font-size: 15px;
+}
+/*the area display hyperlink overView*/ 
+#overView{
+    width: 100%;
+    height: 35px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+    text-align: center;
+}
+/*display the footer of page*/
+#theFooter{
+    width: 96%;
+    height: 30px;
+    margin-top:0px;
+    margin-bottom: 35px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+/*display image blog type 1*/
+.imgBlogType1{
+    width: 99%;
+    height: 400px;
+    border: 1px;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 5px;
+}
+/*display image blog type 2*/
+.imgBlogType2{
+    width: 45%;
+    height: 400px;
+    border: 1px;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 5px;
+}
+/*set font size for context of blog type 1*/
+.textBlogType1{
+    font-size: 14px;;
+}
+/*set tile each page (Blog, About me, Contact)*/
+.title{
+    font-family: Kunstler Script;
+    font-size: 55px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+/*set font for tile of view detail blog*/
+.fontDetailBlogTitle{
+    font-family: Kunstler Script;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+/*float left*/ 
+.floatLeft{
+    float: left;
+}
+/*float right*/
+.floatRight{
+    float: right;
+}
+/*set the red color */
+.colorRed{
+    color: #d70d18;
+}
+/*set font for logo of page*/
+.logo{
+    font-family: Kunstler Script;
+    font-size: 70px;
+}
+/*the sub logo*/
+.subLogo{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-size: 22px;
+}
+/*decorate for each sub menu bar option*/
+.subMenuBar{
+    margin: 0px;
+    color: white;   
+    font-family: Arial;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2%;
+    padding-right: 10px;
+}
+/*set normal font (font : non footer)*/
+.fontArial{
+    font-family: Calibri;
+}
+/*font for contact page for title "Send your message"*/
+.fontContact{
+    font-size: 22px;
+    font-weight: normal;
+}
+/*reset margin to 0*/ 
+.magin{
+    margin: 0px;
+}
+/*set font for "Share this page " of advertising*/
+.sharePage{
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+/*line share with facebook or twitter or youtube*/
+#lineAdvertising{
+    height: 20px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px;
+    display: flex;
+}
+/*the area display number paggination*/
+#numberPagination{
+    width: 96%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+/*set stutus for current number pagination page*/
+.activation{
+    margin: 2px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #cccccc;
+    background-color: #cccccc;
+    color: black;
+}
+.deactivation{
+    background-color: background;
+    margin: 2px;
+    padding: 5px;
+    border-style: solid;
+    border-color: background;
+    color:#ffffff;
+}
+/*icon for advertising for facebook*/
+.iconAdvertisingFB{
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+    padding: 0px;
+    background-image: url(/FashionBlog/Image/iconFacebook.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: 10px;*/
+}
+/*icon for advertising for twiter*/
+.iconAdvertisingTW{
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+    padding: 0px;
+    background-image: url(/FashionBlog/Image/iconTw.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: 10px;*/
+}
+/*icon for advertising for google*/
+.iconAdvertisingGG{
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+    padding: 0px;
+    background-image: url(/FashionBlog/Image/iconGg.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: 10px;*/
+}
+/*set font bold*/
+.fontBold{
+    font-weight: bold;
+}
+
+/*for overview pagination*/
+/*set defaul for table display data pagination*/
+.dataTable{
+    width: 100%;
+    height: auto;
+}
+/*set border top for each row items*/
+tr {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top: 1px;
+    border-top-color: #cccccc;
+    border-top-style: solid;
+}
+/*division each datapagination in each iteam*/
+.tdfashionName{
+    display: block;
+    width: 40%;
+}
+.tdfashionLikeIcon{
+    display: block;
+    width: 20%;
+}
+.tdfashionCommentIcon{
+    display: block;
+    width: 20%;
+}
+.tdfashionDate{
+    display: block;
+    width: 20%;
+}
+/*set font color black*/
+.fontColorBlack{
+    color: black;
+}
+/*set hyperlink none line*/
+.noneLine{
+    text-decoration: none;
+}
+/*division each datapagination in each iteam*/
+/*line for pagination about name , and date*/ 
+#linePagination{
+    width: 98%;
+    height: 35px;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px;
+    border-top-style: solid;
+    border-top-color: #cccccc;
+    display: flex;
+}
+/*set border bottom for title send your message*/
+#borderSendYourMessage{
+    width: 100%;
+    height: 50px;
+    border-bottom-color: #cccccc;
+    border-bottom-style:dotted;
+    margin:0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 2px;
+
+}
+/*set font for title send your message*/ 
+.fontThin{
+    font-size: 22px;
+}
+/*set area for form*/
+.blockForm{
+    width: 100%;
+    height: 300px;
+}
+/*contactpage*/
+/*the area name and mail*/ 
+#nameAndMail{
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+}
+/*the area for name*/ 
+#name{
+    width: 46%;
+    height: 35px;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0xp;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*the area for name or mail*/
+#mail{
+    width: 48%;
+    height: 35px;
+    float: right;
+    margin-left: 0%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0xp;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*set radius for input text*/
+.inputText{
+    width: 100%;
+    height: 32px;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-radius: 6px;
+}
+/*div diaplay message text area*/
+#meassageArea{
+    width: 100%;
+    height: 120px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+}
+/*set radius for text area message text*/
+.areaText{
+    resize: none;
+    width: 97%;
+    height: 95%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-radius: 6px;
+}
+/*display button confirm*/ 
+#btnSend{
+    width: 100%;
+    float: right;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/*set radius for button send*/
+.btnSendRadius{
+    float: right;
+    color: white;
+    font-size: 16px;
+    background-color: #d70d18;
+    width: 25%;
+    height: 32px;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-radius: 20px;
+}
+/*notification about invalid input from user*/
+#notify{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/*set atribute for input text notification*/
+.activeNotification{
+    width: 98%;
+    height: auto;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 6px;
+    color: red;
+}
+/*insert successfully message*/
+.successfulyMessage{
+    width: 97%;
+    height: 40px;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: #00ccff;
+    border-radius: 6px;
+    color: #00cccc;
+    background-color: #99ffcc
+}
+/*the area for content about me*/ 
+#bigcontentAboutMe{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    display: flex;
+}
+/*the name age and description about me*/
+#contentAboutMe{
+    width: 53%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*set image for about me*/
+.imgAboutMe{
+    width: 45%;
+    height: 450px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 6px;
+}
+/*set div like and number like or comment in overview page*/
+#numberLikeComment{
+    width: 50%;
+    height: 90%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
